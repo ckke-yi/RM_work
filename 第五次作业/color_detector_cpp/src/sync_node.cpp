@@ -40,9 +40,9 @@ private:
         double diff_ms = std::abs((img_stamp - imu_stamp).seconds() * 1000.0);
 
         RCLCPP_INFO(this->get_logger(),
-            " [同步成功] 图像时间戳: %d.%09d | IMU 时间戳: %d.%09d | 时间差: %.2f ms",
-            img_stamp.seconds(), img_stamp.nanoseconds(),
-            imu_stamp.seconds(), imu_stamp.nanoseconds(),
+            " [同步成功] 图像时间戳: %.9f | IMU 时间戳: %.9f | 时间差: %.2f ms",
+            img_stamp.seconds(),
+            imu_stamp.seconds(),
             diff_ms);
     }
 
