@@ -1,0 +1,5 @@
+# sequence timestamp_us payload
+0 1000000 camera_frame_0
+1 1020000 camera_frame_1
+2 1040000 camera_frame_2
+3 1100000 camera_frame_3

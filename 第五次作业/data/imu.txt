@@ -1,0 +1,6 @@
+# sequence timestamp_us payload
+0 999800 imu_sample_0
+1 1010000 imu_sample_1
+2 1020100 imu_sample_2
+3 1039900 imu_sample_3
+4 1080000 imu_sample_4
