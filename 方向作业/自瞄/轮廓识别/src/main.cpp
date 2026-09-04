@@ -487,7 +487,7 @@ int main(int argc, char** argv) {
               << " predicted_frames=" << predicted_frames
               << " resolution=" << width << "x" << height << '\n'
               << "saved_video=" << config.output_video << '\n'
-              << "saved_csv=" << config.output_csv << '\n";
+              << "saved_csv=" << config.output_csv << '\n';
     if (interrupted) {
       std::cout << "Preview interrupted by ESC; rerun without pressing ESC for the full video.\n";
     }
