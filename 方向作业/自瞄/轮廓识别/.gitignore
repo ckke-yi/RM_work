@@ -1,0 +1,4 @@
+build/
+output/
+input/*.mp4
+input/*.avi
